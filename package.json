@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev --hostname 0.0.0.0",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start --hostname 0.0.0.0"
   },
   "dependencies": {
     "@ant-design/icons": "^5.0.1",
