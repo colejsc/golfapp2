@@ -1,0 +1,436 @@
+body {
+  background-color: #088056;
+}
+
+.mainContent {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.margin-bottom-5 {
+  margin-bottom: 5px;
+}
+
+.margin-bottom-15 {
+  margin-bottom: 15px;
+}
+
+.margin-bottom-25 {
+  margin-bottom: 25px;
+}
+
+.margin-top-5 {
+  margin-top: 5px;
+}
+
+.margin-top-15 {
+  margin-top: 15px;
+}
+
+.margin-top-25 {
+  margin-top: 25px;
+}
+
+.margin-right-20 {
+  margin-right: 20px !important;
+}
+
+.bold {
+  color: #0A1B4B;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.flex {
+  display: flex;
+}
+
+.text {
+  color: #3D3F44;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.player-input {
+  display: flex;
+}
+
+.hole-links {
+  margin: 10px;
+}
+
+.hole-link {
+  border: 1px solid;
+  border-radius: 10px;
+  width: 30px;
+  justify-content: center;
+  padding: 10px;
+  display: inline-flex;
+  color: #0A1B4B;
+  font-size: 32px !important;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.hole-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.hole-complete {
+  background-color: #135f06;
+  color: #fff;
+}
+
+.hole-incomplete {
+  background-color: #1b49c9;
+  color: #fff;
+}
+
+.par-input {
+  font-weight: bold;
+  display: inline-flex;
+  width: 40%;
+  align-items: center;
+  margin: 0px 70px;
+}
+
+.set-wolf-teams {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.wolf-modal {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.score-input-button-section {
+  margin: 20px 0;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.score-input-button-section>div {
+  display: inline-block;
+}
+
+.score-input-button-container {
+  font-size: 22px;
+  text-wrap: nowrap;
+  width: 100%;
+}
+
+.score-input-check {
+  margin: 0 10px;
+}
+
+.score-input-snake {
+  position: absolute;
+  right: 23%;
+}
+
+.score-input-player-name {
+  margin-bottom: 10px;
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.score-inputs {
+  margin: 30px 0;
+}
+
+.score-modal {
+  font-size: 20px;
+}
+
+.score-inputs .label {
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 70px;
+  margin: 0 10px;
+  text-align: right;
+}
+
+.score-inputs .input {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px 0;
+}
+
+.wolf-team-name-1 {
+  color: #120bea;
+}
+
+.wolf-team-name-2 {
+  color: #987409;
+}
+
+.wolf-team-name-blind {
+  color: #f30b0b;
+}
+
+.dark-blue {
+  background-color: #0A1B4B !important;
+}
+
+.next-button-container {
+  width: 100%;
+}
+
+.previous-hole {
+  float: left;
+}
+
+.next-hole {
+  float: right;
+}
+
+.show-summary-button {
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.summary-tables {
+  margin: 0 auto;
+}
+
+.summary-tables>table,
+.summary-tables>div>table {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 10px;
+  font-size: 22px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.summary-tables td {
+  padding: 0 10px 0 10px;
+}
+
+.summary-player-name {
+  text-align: left;
+  padding-right: 10px;
+  border-bottom: 1px solid #000;
+}
+
+.summary-player-data {
+  text-align: left;
+  padding-right: 10px;
+  border-bottom: 1px solid #000;
+}
+
+.summary-detail-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.summary-toggle {
+  display: table;
+  margin: 10px 0;
+}
+
+.summary-link>span {
+  color: #4b74e7;
+  font-size: 16px;
+  float: left;
+}
+
+.snake-summary {
+  border: 1px solid #000;
+  font-size: 18px;
+  text-align: left;
+  padding: 10px;
+}
+
+.excluding-snake-text {
+  font-size: 16px;
+  font-weight: 400;
+  display: block;
+}
+
+.clear {
+  clear: both;
+}
+
+.game-settings-link {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.game-settings {
+  text-align: center;
+  font-size: 18px;
+}
+
+.game-settings-section {
+  width: 100%;
+  margin: 0 0 15px 0;
+  display: inline-flex;
+}
+
+.game-settings-label {
+  width: 150px;
+  text-align: right;
+  margin-right: 10px;
+  align-content: space-evenly;
+}
+
+.game-settings-input {
+  font-size: 18px;
+  align-content: space-evenly;
+}
+
+.game-settings-input input {
+  font-size: 18px;
+}
+
+.dollar-sign-input {
+  display: inline-block;
+  position: relative;
+  top: 6px;
+}
+
+.game-settings-link>span {
+  color: #4b74e7;
+}
+
+.show-snakeoff-button {
+  text-align: center;
+  margin: 30px 0 20px 0;
+}
+
+.show-snakeoff-button .button {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.snakeoff-not-settled {
+  background-color: #1b49c9 !important;
+}
+
+.snakeoff-settled {
+  background-color: #135f06 !important;
+}
+
+.snakeoff-section {
+  width: 100%;
+  margin: 0 0 15px 0;
+  display: inline-flex;
+}
+
+.snakeoff-label {
+  text-align: right;
+  margin-right: 10px;
+  align-content: space-evenly;
+  font-size: 22px;
+}
+
+.snakeoff-input {
+  align-content: space-evenly;
+}
+
+.ant-select-item {
+  font-size: 20px !important;
+}
+
+.button {
+  color: #fff;
+  background-color: #0e4804;
+  font-weight: 500;
+  min-width: 93px;
+  min-height: 37px;
+  padding: 0 30px;
+}
+
+.button:disabled {
+  color: #fff;
+  background-color: #AEAEAE;
+}
+
+.errorMessage {
+  color: #ff0000;
+  font-size: 21px;
+  margin: 10px 0;
+}
+
+.pageContent {
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 25px 0;
+  padding: 40px;
+}
+
+.center-title {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.backLink {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.backLink a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.detail-item {
+  margin: 10px 0;
+}
+
+.detail-item .title {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.detail-item .data {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.detail-item a {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+
+
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  color: #696D77;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.ant-modal-footer {
+  text-align: center !important;
+}
+
+.ant-modal-footer button {
+  margin: 0 10px;
+  width: 85px;
+}
+
+.modalButtonSpinner .ant-spin {
+  width: 100%;
+}
+
+.ant-input-number {
+  width: 55px;
+}
